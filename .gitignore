@@ -1,0 +1,12 @@
+/bin/
+/runs/
+/results/
+/expTest/
+/data/*.csv
+*.exe
+*.db
+*.log
+__pycache__/
+*.pyc
+.venv/
+.DS_Store

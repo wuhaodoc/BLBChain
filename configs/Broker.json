@@ -1,0 +1,30 @@
+{
+  "ConsensusMethod": 2,
+  "PbftViewChangeTimeOut": 240000,
+  "ExpDataRootDir": "results",
+  "Block_Interval": 3000,
+  "BlockSize": 2000,
+  "BlocksizeInBytes": 200000,
+  "UseBlocksizeInBytes": 0,
+  "InjectSpeed": 3000,
+  "TotalDataSize": 60000,
+  "TxBatchSize": 300,
+  "BrokerNum": 10,
+  "RelayWithMerkleProof": 0,
+  "DatasetFile": "data/transactions.csv",
+  "ReconfigTimeGap": 100,
+  "Delay": 0,
+  "JitterRange": 0,
+  "Bandwidth": 12500000,
+  "Overhead": {
+    "Enabled": false,
+    "Lightweight": false,
+    "Migration": false,
+    "MigrationAfterSeconds": 10,
+    "MigrationAccounts": 4,
+    "TimeoutSeconds": 240,
+    "StreamSkipNode": -1,
+    "MigrationPolicy": "timed"
+  },
+  "Scheme": "Broker"
+}
